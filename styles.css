@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Hack;
+}
+img{
+  width: 12%;
+  height: auto;
+}
+#next_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pokemon_generated{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1, h2{
+  text-align: center;
+  padding: 2.5%;
+  font-size: 2.5rem;
+}
+button{
+  border: none;
+  padding: 5%;
+  margin: 1%;
+  font-size: 2.5rem;
+}
+.correct {
+  color: black;
+  background-color: lightgreen !important;
+}
+.incorrect{
+  color: black;
+  background-color: lightpink !important;
+}
